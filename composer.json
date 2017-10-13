@@ -1,0 +1,19 @@
+{
+    "name": "taoongjun/preg",
+    "description": "This package is developed for preg match",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tom Tao",
+            "email": "513380450@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+        "autoload": {
+        "psr-4": {
+            "Preg\\": "src/",
+        }
+    }
+}
