@@ -24,4 +24,9 @@ class Preg
     {
         return ((self::$instance)->match)[0] ?? false;
     }
+
+    public static function mode()
+    {
+        return (self::$instance)->mode ?? false;
+    }
 }
